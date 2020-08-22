@@ -1,0 +1,14 @@
+<div class="s01">
+    <form>
+      <div class="inner-form">
+          <fieldset>
+            <legend>Você gostou?</legend>
+              <div class="input-field third-wrap">
+                  <button class="btn-search" type="button" onclick="javascript:location.href='/'"> AQUI para Mais</button>
+                </div>
+          </fieldset>
+      </div>
+        
+        <img *ngFor="let i of gifs.data" [src]="i.images.fixed_width.url">
+    </form>
+  </div>
